@@ -12,6 +12,6 @@ public class HelloWorldController
                         @PathVariable("name") String name,
                         @PathVariable("comment") String comment)
     {
-        return id + " " + name + " " + comment;
+        return id + " + " + name + " + " + comment;
     }
 }
